@@ -21,8 +21,8 @@ Welcome to my repository, where I document my journey of solving coding challeng
 | **Difficulty** | **Problems Solved** | **Acceptance Rate** | **Performance** |  
 |----------------|---------------------|---------------------|----------------|  
 | 🟢 Easy        | 66 / 845           | 31.3%              | Beats 83.39%  |  
-| 🟡 Medium      | 21 / 1,772         | -                  | Beats 57.74%  |  
-| 🔴 Hard        | 4 / 782            | -                  | Beats 40.61%  |  
+| 🟡 Medium      | 21 / 1,772         | 57.74%             | Beats 57.74%  |  
+| 🔴 Hard        | 4 / 782            | 40.61%             | Beats 40.61%  |  
 
 ---
 
