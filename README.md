@@ -10,7 +10,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 🚀 Contest Performance  
-- **Contest Rating**: 1,414  
+- **Contest Rating**: N/A  
 - **Global Ranking**: 492,430 / 636,113  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: 77.84% (98/3,399)  
@@ -20,9 +20,9 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ## 💡 Problem-Solving Stats  
 | **Difficulty** | **Problems Solved** | **Acceptance Rate** | **Performance** |  
 |----------------|---------------------|---------------------|----------------|  
-| 🟢 Easy        | 71 / 845           | 84.4%              | Beats 83.39%  |  
-| 🟡 Medium      | 23 / 1,772         | 59.74%             | Beats 59.74%  |  
-| 🔴 Hard        | 4 / 782            | 40.63%             | Beats 40.61%  |  
+| 🟢 Easy        | 71 / 845          | 32.35%              |
+| 🟡 Medium      | 23 / 1772         | 32.35%             |
+| 🔴 Hard        | 4 / 782            | 32.35%             |
 
 ---
 
