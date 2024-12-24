@@ -16,18 +16,24 @@ def update_readme(stats, repo_path="README.md"):
     # Update specific sections in README
     for i, line in enumerate(readme):
         if "**Contest Rating**" in line:
-            readme[i] = f"- **Contest Rating**: {stats['contest_rating']}  \n"
+            readme[i] = f"- **Contest Rating**: {stats.get('contest_rating', 'N/A')}  \n"
         elif "| 🟢 Easy" in line:
-            readme[i] = f"| 🟢 Easy        | {stats['easy_solved']} / {stats['total_easy_questions']}          | {stats['acceptance_rate']}%              | Beats {stats['acceptance_rate']}%  |\n"
+            readme[i] = f"| 🟢 Easy        | {stats.get('easy_solved', 0)} / {stats.get('total_easy_questions', 0)}          | {stats.get('acceptance_rate', '0')}%              | Beats {stats.get('acceptance_rate', '0')}%  |\n"
         elif "| 🟡 Medium" in line:
-            readme[i] = f"| 🟡 Medium      | {stats['medium_solved']} / {stats['total_medium_questions']}         | {stats['acceptance_rate']}%             | Beats {stats['acceptance_rate']}%  |\n"
+            readme[i] = f"| 🟡 Medium      | {stats.get('medium_solved', 0)} / {stats.get('total_medium_questions', 0)}         | {stats.get('acceptance_rate', '0')}%             | Beats {stats.get('acceptance_rate', '0')}%  |\n"
         elif "| 🔴 Hard" in line:
-            readme[i] = f"| 🔴 Hard        | {stats['hard_solved']} / {stats['total_hard_questions']}            | {stats['acceptance_rate']}%             | Beats {stats['acceptance_rate']}%  |\n"
+            readme[i] = f"| 🔴 Hard        | {stats.get('hard_solved', 0)} / {stats.get('total_hard_questions', 0)}            | {stats.get('acceptance_rate', '0')}%             | Beats {stats.get('acceptance_rate', '0')}%  |\n"
 
     with open(repo_path, "w") as file:
         file.writelines(readme)
 
+
 if __name__ == "__main__":
     leetcode_username = "SKSANDY2396"
     stats = fetch_leetcode_stats(leetcode_username)
+
+    # Debug: Print the fetched stats to check for missing keys
+    print(stats)
+
     update_readme(stats)
+
