@@ -20,7 +20,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ## 💡 Problem-Solving Stats  
 | **Difficulty** | **Problems Solved** | **Acceptance Rate** | **Performance** |  
 |----------------|---------------------|---------------------|----------------|  
-| 🟢 Easy        | 66 / 845           | 83.4%              | Beats 83.39%  |  
+| 🟢 Easy        | 71 / 845           | 84.4%              | Beats 83.39%  |  
 | 🟡 Medium      | 23 / 1,772         | 59.74%             | Beats 59.74%  |  
 | 🔴 Hard        | 4 / 782            | 40.63%             | Beats 40.61%  |  
 

@@ -28,6 +28,6 @@ def update_readme(stats, repo_path="README.md"):
         file.writelines(readme)
 
 if __name__ == "__main__":
-    leetcode_username = "u/SKSANDY2396"
+    leetcode_username = "SKSANDY2396"
     stats = fetch_leetcode_stats(leetcode_username)
     update_readme(stats)
