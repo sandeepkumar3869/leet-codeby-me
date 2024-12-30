@@ -11,23 +11,23 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 492,430 / 636,113  
+- **Global Ranking**: 816257 / N/A  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: 77.84% (100/3,399)  
 
 ---
 
 ## 💡 Problem-Solving Stats  
-| **Difficulty** | **Problems Solved** | **Acceptance Rate** | **Performance** |  
+- **Acceptance Rate**: 37.69%  
 |----------------|---------------------|---------------------|----------------|  
-| 🟢 Easy        | 74 / 845          | 32.35%              |
-| 🟡 Medium      | 23 / 1772         | 32.35%             |
-| 🔴 Hard        | 4 / 782            | 32.35%             |
+| 🟢 Easy        | 104 / 846          | 37.69%              |
+| 🟡 Medium      | 29 / 1775         | 37.69%             |
+| 🔴 Hard        | 4 / 784            | 37.69%             |
 
 ---
 
 ## 🔥 Submission Stats  
-- **Total Submissions**: 373  
+- **Total Submissions**: N/A  
 - **Attempts**:  
   - 🟢 Easy: 41  
   - 🟡 Medium: 15  
@@ -37,7 +37,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🏅 Achievements and Badges  
 - **Total Badges**: 1  
-- **Most Recent Badge**: *50 Days Badge 2024*  
+- **Most Recent Badge**: N/A  
 
 ---
 
