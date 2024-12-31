@@ -1,0 +1,16 @@
+
+### Key Features of the README.md
+1. **Clear Structure**: Separates general statistics from problem-specific breakdowns.
+2. **Markdown Table**: Displays problem difficulty, solved problems, and acceptance rates in a tabular format.
+3. **Instruction Section**: Explains how others can use the script to track their stats.
+4. **Automated Updates**: Mentions the automation aspect to keep the README updated.
+
+This template ensures that the fetched data is well-organized and visually clean. The placeholders (like `N/A`) will be replaced dynamically by the `update_readme` function when the script is executed.
+
+
+
+### Updates
+- The title now includes your LeetCode username as a clickable link: `[SKSANDY2396](https://leetcode.com/SKSANDY2396/)`.
+- Your profile link is seamlessly integrated to make it easy for others to check your profile directly. 
+
+Run your script, and the placeholders (`N/A`, `0.00%`, etc.) will dynamically populate with the actual data fetched from the LeetCode API!

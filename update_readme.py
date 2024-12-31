@@ -116,5 +116,5 @@ def update_readme(stats, repo_path="README.md"):
 if __name__ == "__main__":
     leetcode_username = "SKSANDY2396"
     stats = fetch_leetcode_stats(leetcode_username)
-    print("Fetched Stats:", stats)  # Debugging
+    # print("Fetched Stats:", stats)  # Debugging
     update_readme(stats)
