@@ -86,7 +86,7 @@ def update_readme(stats, repo_path="README.md"):
         elif "**Top Percentage**" in line:
             readme[i] = f"- **Top Percentage**: {stats.get('topPercentage', 'N/A')}%  \n"
         elif "**Total Solved**" in line:
-            readme[i] = f"- **Total Solved**: {stats.get('totalSolved', 'N/A')} / {stats.get('totalQuestions', 'N/A')}  \n"
+            readme[i] = f"- **Total Solved**: {stats.get('easySolved', 0)}+{stats.get('mediumSolved', 0)} +{stats.get('hardSolved', 0)}/ {stats.get('totalQuestions', 'N/A')}  \n"
         elif "**Acceptance Rate**" in line:
             readme[i] = f"- **Acceptance Rate**: {stats.get('acceptanceRate', 'N/A')}%  \n"
         elif "**Beats Stats**" in line:
