@@ -85,8 +85,7 @@ def update_readme(stats, repo_path="README.md"):
             readme[i] = f"- **Global Ranking**: {stats.get('ranking', 'N/A')} / {stats.get('totalRanking', 'N/A')}  \n"
         elif "**Top Percentage**" in line:
             readme[i] = f"- **Top Percentage**: {stats.get('topPercentage', 'N/A')}%  \n"
-        elif "**Total Solved**" in line:
-            readme[i] = f"- **Total Solved**: {stats.get('easySolved', 0)}+{stats.get('mediumSolved', 0)} +{stats.get('hardSolved', 0)}/ {stats.get('totalQuestions', 'N/A')}  \n"
+        
         elif "**Acceptance Rate**" in line:
             readme[i] = f"- **Acceptance Rate**: {stats.get('acceptanceRate', 'N/A')}%  \n"
         elif "**Beats Stats**" in line:
@@ -97,6 +96,8 @@ def update_readme(stats, repo_path="README.md"):
             readme[i] = f"| 🟡 Medium      | {stats.get('mediumSolved', 0)} / {stats.get('totalMedium', 0)}         | {stats.get('acceptanceRate', 0):.2f}%             |\n"
         elif "| 🔴 Hard" in line:
             readme[i] = f"| 🔴 Hard        | {stats.get('hardSolved', 0)} / {stats.get('totalHard', 0)}            | {stats.get('acceptanceRate', 0):.2f}%             |\n"
+        elif "**Total Solved**" in line:
+            readme[i] = f"- **Total Solved**: ({stats.get('easySolved', 0)}+{stats.get('mediumSolved', 0)} +{stats.get('hardSolved', 0)})/ {stats.get('totalQuestions', 'N/A')}  \n"
         elif "**Badges**" in line:
             readme[i] = f"- **Badges**: {stats.get('badges', 'N/A')}  \n"
         elif "**Most Recent Badge**" in line:
