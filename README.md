@@ -18,11 +18,11 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 35.06%  
+- **Acceptance Rate**: 35.01%  
 |----------------|---------------------|---------------------|----------------|  
-| 🟢 Easy        | 168 / 856          | 35.06%              |
-| 🟡 Medium      | 40 / 1793         | 35.06%             |
-| 🔴 Hard        | 4 / 796            | 35.06%             |
+| 🟢 Easy        | 168 / 856          | 35.01%              |
+| 🟡 Medium      | 40 / 1793         | 35.01%             |
+| 🔴 Hard        | 4 / 796            | 35.01%             |
 
 ---
 
@@ -78,13 +78,13 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 35.06%  
+- **Acceptance Rate**: 35.01%  
 
 | Difficulty | Solved / Total | Acceptance Rate |
 |------------|----------------|-----------------|
-| 🟢 Easy        | 168 / 856          | 35.06%              |
-| 🟡 Medium      | 40 / 1793         | 35.06%             |
-| 🔴 Hard        | 4 / 796            | 35.06%             |
+| 🟢 Easy        | 168 / 856          | 35.01%              |
+| 🟡 Medium      | 40 / 1793         | 35.01%             |
+| 🔴 Hard        | 4 / 796            | 35.01%             |
 
 ---
 
