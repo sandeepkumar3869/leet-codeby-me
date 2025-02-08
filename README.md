@@ -73,7 +73,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 - **Contest Rating**: N/A  
 - **Global Ranking**: 515092 / N/A  
 - **Contests Attended**: 1  
-- **Top Rank Achieved**: 77.84% (178/3,399)  
+- **Top Rank Achieved**: 77.84% (218/3,399)  
 
 ---
 
