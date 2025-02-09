@@ -21,8 +21,8 @@ Welcome to my repository, where I document my journey of solving coding challeng
 - **Acceptance Rate**: 35.33%  
 |----------------|---------------------|---------------------|----------------|  
 | 🟢 Easy        | 175 / 856          | 35.33%              |
-| 🟡 Medium      | 41 / 1793         | 35.33%             |
-| 🔴 Hard        | 4 / 796            | 35.33%             |
+| 🟡 Medium      | 41 / 1795         | 35.33%             |
+| 🔴 Hard        | 4 / 798            | 35.33%             |
 
 ---
 
@@ -83,8 +83,8 @@ Welcome to my repository, where I document my journey of solving coding challeng
 | Difficulty | Solved / Total | Acceptance Rate |
 |------------|----------------|-----------------|
 | 🟢 Easy        | 175 / 856          | 35.33%              |
-| 🟡 Medium      | 41 / 1793         | 35.33%             |
-| 🔴 Hard        | 4 / 796            | 35.33%             |
+| 🟡 Medium      | 41 / 1795         | 35.33%             |
+| 🔴 Hard        | 4 / 798            | 35.33%             |
 
 ---
 
