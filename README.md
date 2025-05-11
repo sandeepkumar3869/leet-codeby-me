@@ -73,7 +73,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 - **Contest Rating**: N/A  
 - **Global Ranking**: 429708 / N/A  
 - **Contests Attended**: 1  
-- **Top Rank Achieved**: 77.84% (277/3,399)  
+- **Top Rank Achieved**: 77.84% (330/3,399)  
 
 ---
 
@@ -82,9 +82,9 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 | Difficulty | Solved / Total | Acceptance Rate |
 |------------|----------------|-----------------|
-| 🟢 Easy        | 218 / 861          | 35.70%              |
-| 🟡 Medium      | 55 / 1801         | 35.70%             |
-| 🔴 Hard        | 4 / 804            | 35.70%             |
+| 🟢 Easy        | 0 / 861          | 35.70%              |
+| 🟡 Medium      | 0 / 1801         | 35.70%             |
+| 🔴 Hard        | 0 / 804            | 35.70%             |
 
 --
 
