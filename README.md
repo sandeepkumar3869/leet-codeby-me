@@ -95,6 +95,10 @@ Welcome to my repository, where I document my journey of solving coding challeng
   - 🟡 Medium: 15  
   - 🔴 Hard: 7  
 
+## 📊 Problem Solving Distribution
+
+![LeetCode Stats](leetcode_stats.png)
+
 ---
 
 ## 🏅 Achievements and Badges  
