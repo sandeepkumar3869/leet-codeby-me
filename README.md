@@ -11,18 +11,18 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 429708 / N/A  
+- **Global Ranking**: 276923 / N/A  
 - **Contests Attended**: 1  
-- **Top Rank Achieved**: 77.84% (100/3,399)  
+- **Top Rank Achieved**: N/A%  
 
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 35.7%  
+- **Acceptance Rate**: 36.17%  
 |----------------|---------------------|---------------------|----------------|  
-| 🟢 Easy        | 197 / 861          | 35.70%              |
-| 🟡 Medium      | 47 / 1801         | 35.70%             |
-| 🔴 Hard        | 4 / 804            | 35.70%             |
+| 🟢 Easy        | 289 / 883          | 36.17%              |
+| 🟡 Medium      | 65 / 1868         | 36.17%             |
+| 🔴 Hard        | 4 / 845            | 36.17%             |
 
 ---
 
@@ -36,7 +36,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 🏅 Achievements and Badges  
-- **Total Badges**: 1  
+- **Total Badges**: N/A  
 - **Most Recent Badge**: N/A  
 
 ---
@@ -71,20 +71,20 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 429708 / N/A  
+- **Global Ranking**: 276923 / N/A  
 - **Contests Attended**: 1  
-- **Top Rank Achieved**: 77.84% (330/3,399)  
+- **Top Rank Achieved**: N/A%  
 
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 35.7%  
+- **Acceptance Rate**: 36.17%  
 
 | Difficulty | Solved / Total | Acceptance Rate |
 |------------|----------------|-----------------|
-| 🟢 Easy        | 0 / 861          | 35.70%              |
-| 🟡 Medium      | 0 / 1801         | 35.70%             |
-| 🔴 Hard        | 0 / 804            | 35.70%             |
+| 🟢 Easy        | 289 / 883          | 36.17%              |
+| 🟡 Medium      | 65 / 1868         | 36.17%             |
+| 🔴 Hard        | 4 / 845            | 36.17%             |
 
 --
 
@@ -102,7 +102,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 🏅 Achievements and Badges  
-- **Total Badges**: 1  
+- **Total Badges**: N/A  
 - **Most Recent Badge**: N/A  
 
 ---
