@@ -2,7 +2,7 @@ name: Update LeetCode Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+    - cron: "* * * * *"  # Daily at midnight UTC
   workflow_dispatch:
 
 permissions:
@@ -21,16 +21,13 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: 📦 Install Dependencies
+      - name: 📦 Install Python Dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install requests plotly kaleido
 
       - name: 🛠️ Run Update Script
-        run: |
-          echo "Running update_readme.py..."
-          python update_readme.py
-        continue-on-error: false
+        run: python update_readme.py
 
       - name: 🚀 Commit and Push Changes
         env:
