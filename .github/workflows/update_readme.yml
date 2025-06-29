@@ -2,7 +2,7 @@ name: Update LeetCode Stats
 
 on:
   schedule:
-    - cron: "* * * * *"  # Runs daily at midnight UTC
+    - cron: "* * * * *" # Runs daily at midnight UTC
   workflow_dispatch:
 
 permissions:
@@ -11,24 +11,22 @@ permissions:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📥 Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: 🐍 Set Up Python
+      - name: Set Up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      - name: 📦 Install Dependencies
-        run: |
-          pip install requests plotly kaleido
+      - name: Install Dependencies
+        run: pip install requests
 
-      - name: 🛠️ Run Update Script
-        run: python updatedreadme.py
+      - name: Update README
+        run: python update_readme.py
 
-      - name: 🚀 Commit and Push Changes
+      - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
