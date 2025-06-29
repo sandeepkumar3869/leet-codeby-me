@@ -24,7 +24,7 @@ jobs:
       - name: 📦 Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests plotly kaleido
+          pip install requests plotly==5.9.0 kaleido==0.2.1
 
       - name: 🛠️ Run Update Script
         run: python update_readme.py
