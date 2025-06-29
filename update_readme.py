@@ -125,4 +125,5 @@ if __name__ == "__main__":
     leetcode_username = "SKSANDY2396"
     stats = fetch_leetcode_stats(leetcode_username)
     plot_difficulty_distribution(stats)
+    # print("Fetched Stats:", stats)
     update_readme(stats)
