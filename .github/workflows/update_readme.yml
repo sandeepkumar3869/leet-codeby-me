@@ -31,9 +31,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests
-          pip install plotly==6.14.0
+          pip install plotly==6.2.0
           pip install kaleido
-          pip list  # 🛠 show what's installed
+          pip list
 
       - name: 🛠️ Run update_readme.py
         run: python update_readme.py
