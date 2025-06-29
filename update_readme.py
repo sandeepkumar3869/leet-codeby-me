@@ -55,8 +55,6 @@
 #     # print("Fetched Stats:", stats)  # Debugging
 #     update_readme(stats)
 
-
-
 import requests
 import plotly.graph_objects as go
 
@@ -67,7 +65,7 @@ def fetch_leetcode_stats(username):
     if response.status_code == 200:
         return response.json()
     else:
-        raise Exception("Failed to fetch data from LeetCode API")
+        raise Exception("❌ Failed to fetch data from LeetCode API")
 
 # Generate donut chart and save it as a PNG
 def plot_difficulty_distribution(stats, image_path="leetcode_stats.png"):
@@ -85,10 +83,13 @@ def plot_difficulty_distribution(stats, image_path="leetcode_stats.png"):
         title_text="📊 Problem Solving Distribution",
         annotations=[dict(text='LeetCode', x=0.5, y=0.5, font_size=20, showarrow=False)]
     )
-    fig.write_image(image_path)
-    print(f"[INFO] Chart saved to {image_path}")
+    try:
+        fig.write_image(image_path)
+        print(f"[INFO] Chart saved to {image_path}")
+    except Exception as e:
+        print(f"[ERROR] Failed to save chart image: {e}")
 
-# Update README.md
+# Update README.md with new stats
 def update_readme(stats, repo_path="README.md"):
     with open(repo_path, "r") as file:
         readme = file.readlines()
@@ -120,10 +121,16 @@ def update_readme(stats, repo_path="README.md"):
 
     print("[INFO] README.md updated successfully.")
 
-# Main flow
+# Main Execution
 if __name__ == "__main__":
+    print("[DEBUG] Fetching LeetCode stats...")
     leetcode_username = "SKSANDY2396"
     stats = fetch_leetcode_stats(leetcode_username)
+
+    print("[DEBUG] Creating donut chart...")
     plot_difficulty_distribution(stats)
-    # print("Fetched Stats:", stats)
+
+    print("[DEBUG] Updating README.md...")
     update_readme(stats)
+
+    print("[SUCCESS] All updates complete. README and chart are up-to-date.")
