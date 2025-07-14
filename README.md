@@ -22,7 +22,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 |----------------|---------------------|---------------------|----------------|  
 | 🟢 Easy        | 294 / 885          | 36.16%              |
 | 🟡 Medium      | 65 / 1881         | 36.16%             |
-| 🔴 Hard        | 4 / 850            | 36.16%             |
+| 🔴 Hard        | 4 / 851            | 36.16%             |
 
 ---
 
@@ -84,7 +84,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 |------------|----------------|-----------------|
 | 🟢 Easy        | 294 / 885          | 36.16%              |
 | 🟡 Medium      | 65 / 1881         | 36.16%             |
-| 🔴 Hard        | 4 / 850            | 36.16%             |
+| 🔴 Hard        | 4 / 851            | 36.16%             |
 
 --
 
