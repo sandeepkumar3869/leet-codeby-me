@@ -11,7 +11,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 275273 / N/A  
+- **Global Ranking**: 275494 / N/A  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: N/A%  
 
@@ -71,7 +71,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 275273 / N/A  
+- **Global Ranking**: 275494 / N/A  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: N/A%  
 
