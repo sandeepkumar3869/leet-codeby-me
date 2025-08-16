@@ -11,18 +11,18 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 275677 / N/A  
+- **Global Ranking**: 277172 / N/A  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: N/A%  
 
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 36.13%  
+- **Acceptance Rate**: 36.19%  
 |----------------|---------------------|---------------------|----------------|  
-| 🟢 Easy        | 290 / 884          | 36.13%              |
-| 🟡 Medium      | 65 / 1874         | 36.13%             |
-| 🔴 Hard        | 4 / 847            | 36.13%             |
+| 🟢 Easy        | 298 / 890          | 36.19%              |
+| 🟡 Medium      | 65 / 1897         | 36.19%             |
+| 🔴 Hard        | 4 / 860            | 36.19%             |
 
 ---
 
@@ -71,20 +71,20 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 275677 / N/A  
+- **Global Ranking**: 277172 / N/A  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: N/A%  
 
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 36.13%  
+- **Acceptance Rate**: 36.19%  
 
 | Difficulty | Solved / Total | Acceptance Rate |
 |------------|----------------|-----------------|
-| 🟢 Easy        | 290 / 884          | 36.13%              |
-| 🟡 Medium      | 65 / 1874         | 36.13%             |
-| 🔴 Hard        | 4 / 847            | 36.13%             |
+| 🟢 Easy        | 298 / 890          | 36.19%              |
+| 🟡 Medium      | 65 / 1897         | 36.19%             |
+| 🔴 Hard        | 4 / 860            | 36.19%             |
 
 --
 
