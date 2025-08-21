@@ -126,6 +126,7 @@ if __name__ == "__main__":
     print("[DEBUG] Fetching LeetCode stats...")
     leetcode_username = "SKSANDY2396"
     stats = fetch_leetcode_stats(leetcode_username)
+    # print("Fetched Stats:", stats)
 
     print("[DEBUG] Creating donut chart...")
     plot_difficulty_distribution(stats)
