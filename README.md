@@ -11,7 +11,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 277653 / N/A  
+- **Global Ranking**: 276851 / N/A  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: N/A%  
 
@@ -71,8 +71,8 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 277653 / N/A  
-- **Contests Attended**: 1  
+- **Global Ranking**: 276851 / N/A  
+- **Contests Attended**: 3  
 - **Top Rank Achieved**: N/A%  
 
 ---
@@ -91,9 +91,9 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ## 🔥 Submission Stats  
 - **Total Submissions**: N/A  
 - **Attempts**:  
-  - 🟢 Easy: 41  
-  - 🟡 Medium: 15  
-  - 🔴 Hard: 7  
+  - 🟢 Easy: 300  
+  - 🟡 Medium: 65  
+  - 🔴 Hard: 4  
 
 ## 📊 Problem Solving Distribution
 
