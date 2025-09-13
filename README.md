@@ -11,18 +11,18 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: N/A  
-- **Global Ranking**: 277653 / N/A  
+- **Global Ranking**: 266892 / N/A  
 - **Contests Attended**: 1  
 - **Top Rank Achieved**: N/A%  
 
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 36.34%  
+- **Acceptance Rate**: 37.19%  
 |----------------|---------------------|---------------------|----------------|  
-| 🟢 Easy        | 300 / 892          | 36.34%              |
-| 🟡 Medium      | 65 / 1907         | 36.34%             |
-| 🔴 Hard        | 4 / 863            | 36.34%             |
+| 🟢 Easy        | 312 / 896          | 37.19%              |
+| 🟡 Medium      | 67 / 1914         | 37.19%             |
+| 🔴 Hard        | 4 / 867            | 37.19%             |
 
 ---
 
@@ -70,26 +70,26 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 🚀 Contest Performance  
-- **Contest Rating**: 1,384 
-- **Global Ranking**: 659,677/746,163 
+- **Contest Rating**: N/A  
+- **Global Ranking**: 266892 / N/A  
 - **Contests Attended**: 3  
-- **Top Rank Achieved**: 88.59%  
+- **Top Rank Achieved**: N/A%  
 
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 36.34%  
+- **Acceptance Rate**: 37.19%  
 
 | Difficulty | Solved / Total | Acceptance Rate |
 |------------|----------------|-----------------|
-| 🟢 Easy        | 300 / 892          | 99.32%              |
-| 🟡 Medium      | 65 / 1907         | 78.59%             |
-| 🔴 Hard        | 4 / 863            | 40.35%             |
+| 🟢 Easy        | 312 / 896          | 37.19%              |
+| 🟡 Medium      | 67 / 1914         | 37.19%             |
+| 🔴 Hard        | 4 / 867            | 37.19%             |
 
 --
 
 ## 🔥 Submission Stats  
-- **Total Submissions**: 1.2k  
+- **Total Submissions**: N/A  
 - **Attempts**:  
   - 🟢 Easy: 300  
   - 🟡 Medium: 65  
@@ -102,8 +102,8 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 🏅 Achievements and Badges  
-- **Total Badges**: 4  
-- **Most Recent Badge**: 100 Days Badge 2025  
+- **Total Badges**: N/A  
+- **Most Recent Badge**: N/A  
 
 ---
 
