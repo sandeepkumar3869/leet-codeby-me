@@ -1,88 +1,6 @@
-
-
-# import requests
-# import plotly.graph_objects as go
-
-# # Fetch data from the LeetCode API
-# def fetch_leetcode_stats(username):
-#     url = f"https://leetcode-stats-api.herokuapp.com/{username}"
-#     response = requests.get(url)
-#     if response.status_code == 200:
-#         return response.json()
-#     else:
-#         raise Exception("❌ Failed to fetch data from LeetCode API")
-
-# # Generate donut chart and save it as a PNG
-# def plot_difficulty_distribution(stats, image_path="leetcode_stats.png"):
-#     fig = go.Figure(data=[go.Pie(
-#         labels=["Easy", "Medium", "Hard"],
-#         values=[
-#             stats.get("easySolved", 0),
-#             stats.get("mediumSolved", 0),
-#             stats.get("hardSolved", 0)
-#         ],
-#         hole=0.5,
-#         marker=dict(colors=["#2ECC71", "#F1C40F", "#E74C3C"]),
-#     )])
-#     fig.update_layout(
-#         title_text="📊 Problem Solving Distribution",
-#         annotations=[dict(text='LeetCode', x=0.5, y=0.5, font_size=20, showarrow=False)]
-#     )
-#     try:
-#         fig.write_image(image_path)
-#         print(f"[INFO] Chart saved to {image_path}")
-#     except Exception as e:
-#         print(f"[ERROR] Failed to save chart image: {e}")
-
-# # Update README.md with new stats
-# def update_readme(stats, repo_path="README.md"):
-#     with open(repo_path, "r") as file:
-#         readme = file.readlines()
-
-#     for i, line in enumerate(readme):
-#         if "**Contest Rating**" in line:
-#             readme[i] = f"- **Contest Rating**: {stats.get('contestRating', 'N/A')}  \n"
-#         elif "**Global Ranking**" in line:
-#             readme[i] = f"- **Global Ranking**: {stats.get('ranking', 'N/A')} / {stats.get('totalRanking', 'N/A')}  \n"
-#         elif "**Top Rank Achieved**" in line:
-#             readme[i] = f"- **Top Rank Achieved**: {stats.get('topPercentage', 'N/A')}%  \n"
-#         elif "**Acceptance Rate**" in line:
-#             readme[i] = f"- **Acceptance Rate**: {stats.get('acceptanceRate', 'N/A')}%  \n"
-#         elif "| 🟢 Easy" in line:
-#             readme[i] = f"| 🟢 Easy        | {stats.get('easySolved', 0)} / {stats.get('totalEasy', 0)}          | {stats.get('acceptanceRate', 0):.2f}%              |\n"
-#         elif "| 🟡 Medium" in line:
-#             readme[i] = f"| 🟡 Medium      | {stats.get('mediumSolved', 0)} / {stats.get('totalMedium', 0)}         | {stats.get('acceptanceRate', 0):.2f}%             |\n"
-#         elif "| 🔴 Hard" in line:
-#             readme[i] = f"| 🔴 Hard        | {stats.get('hardSolved', 0)} / {stats.get('totalHard', 0)}            | {stats.get('acceptanceRate', 0):.2f}%             |\n"
-#         elif "**Total Submissions**" in line:
-#             readme[i] = f"- **Total Submissions**: {stats.get('totalSubmissions', 'N/A')}  \n"
-#         elif "**Total Badges**" in line:
-#             readme[i] = f"- **Total Badges**: {stats.get('badges', 'N/A')}  \n"
-#         elif "**Most Recent Badge**" in line:
-#             readme[i] = f"- **Most Recent Badge**: {stats.get('mostRecentBadge', 'N/A')}  \n"
-
-#     with open(repo_path, "w") as file:
-#         file.writelines(readme)
-
-#     print("[INFO] README.md updated successfully.")
-
-# # Main Execution
-# if __name__ == "__main__":
-#     print("[DEBUG] Fetching LeetCode stats...")
-#     leetcode_username = "SKSANDY2396"
-#     stats = fetch_leetcode_stats(leetcode_username)
-#     # print("Fetched Stats:", stats)
-
-#     print("[DEBUG] Creating donut chart...")
-#     plot_difficulty_distribution(stats)
-
-#     print("[DEBUG] Updating README.md...")
-#     update_readme(stats)
-
-#     print("[SUCCESS] All updates complete. README and chart are up-to-date.")
-
 import requests
 import matplotlib.pyplot as plt
+from datetime import datetime
 
 # === CONFIG ===
 USERNAME = "SKSANDY2396"
@@ -100,6 +18,7 @@ query getUserProfile($username: String!) {
       ranking
       reputation
       starRating
+      userAvatar
     }
     submitStats: submitStatsGlobal {
       acSubmissionNum {
@@ -116,6 +35,16 @@ query getUserProfile($username: String!) {
     totalParticipants
     topPercentage
   }
+  userContestRankingHistory(username: $username) {
+    attended
+    rating
+    ranking
+    problemsSolved
+    contest {
+      title
+      startTime
+    }
+  }
 }
 """
 
@@ -128,8 +57,11 @@ if response.status_code != 200:
 data = response.json().get("data", {})
 user = data.get("matchedUser", {})
 contest = data.get("userContestRanking", {})
+contest_history = [
+    c for c in data.get("userContestRankingHistory", []) if c.get("attended")
+]
 
-# === Extract problem stats ===
+# === Problem Stats ===
 stats = {s["difficulty"]: s for s in user.get("submitStats", {}).get("acSubmissionNum", [])}
 easy = stats.get("Easy", {"count": 0, "submissions": 0})
 medium = stats.get("Medium", {"count": 0, "submissions": 0})
@@ -139,18 +71,54 @@ total_solved = easy["count"] + medium["count"] + hard["count"]
 total_submissions = easy["submissions"] + medium["submissions"] + hard["submissions"]
 acceptance_rate = round((total_solved / total_submissions) * 100, 2) if total_submissions > 0 else 0.0
 
-# === Generate Pie Chart ===
-labels = ["Easy", "Medium", "Hard"]
-sizes = [easy["count"], medium["count"], hard["count"]]
-plt.pie(sizes, labels=labels, autopct="%1.1f%%", startangle=140, colors=["#4CAF50","#FFC107","#F44336"])
-plt.axis("equal")
+# === Pie Chart ===
+plt.figure(figsize=(5, 5))
+plt.pie(
+    [easy["count"], medium["count"], hard["count"]],
+    labels=["Easy", "Medium", "Hard"],
+    autopct="%1.1f%%",
+    startangle=140,
+    colors=["#4CAF50", "#FFC107", "#F44336"]
+)
 plt.title("Problem Solving Distribution")
 plt.savefig(STATS_IMAGE)
 plt.close()
 
-# === Generate README.md content ===
+# === Recent 5 Contests ===
+contest_rows = ""
+for c in sorted(contest_history, key=lambda x: x['contest']['startTime'], reverse=True)[:5]:
+    date_str = datetime.fromtimestamp(c['contest']['startTime']).strftime("%Y-%m-%d")
+    contest_rows += f"| {c['contest']['title']} ({date_str}) | {c['rating']:.2f} | {c['ranking']} | {c['problemsSolved']} |\n"
+if not contest_rows:
+    contest_rows = "| No recent contests | - | - | - |\n"
+
+# === Contest Leaderboard Bar ===
+leaderboard_rows = ""
+for c in sorted(contest_history, key=lambda x: x['rating'], reverse=True)[:5]:
+    max_rating = 4000
+    bar_length = int((c['rating'] / max_rating) * 20)
+    bar = "█" * bar_length + "░" * (20 - bar_length)
+    date_str = datetime.fromtimestamp(c['contest']['startTime']).strftime("%Y-%m-%d")
+    leaderboard_rows += f"| {c['contest']['title']} ({date_str}) | {c['rating']:.2f} | {bar} |\n"
+if not leaderboard_rows:
+    leaderboard_rows = "| No recent contests | - | - |\n"
+
+# === Dynamic Badges ===
+base_badge_url = "https://img.shields.io/badge"
+acceptance_badge = f"{base_badge_url}/Acceptance-{acceptance_rate}%25-brightgreen"
+solved_badge = f"{base_badge_url}/Solved-{total_solved}-blue"
+ranking_badge = f"{base_badge_url}/Ranking-{user.get('profile', {}).get('ranking', 'N/A')}-orange"
+contests_badge = f"{base_badge_url}/Contests-{contest.get('attendedContestsCount', 'N/A')}-purple"
+
+# === README CONTENT ===
 readme_content = f"""
 # 🏆 LeetCode Journey by Sandeep Kumar  
+
+![Acceptance Rate]({acceptance_badge}) 
+![Total Solved]({solved_badge}) 
+![Ranking]({ranking_badge}) 
+![Contests Attended]({contests_badge})
+
 [Visit my LeetCode profile](https://leetcode.com/u/{USERNAME}/)  
 
 Welcome to my repository, where I document my journey of solving coding challenges on LeetCode.  
@@ -159,9 +127,19 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: {contest.get("rating", "N/A")}  
-- **Global Ranking**: {contest.get("globalRanking", "N/A")}  
+- **Global Ranking**: {contest.get("globalRanking", "N/A")} / {contest.get("totalParticipants", "N/A")}  
 - **Contests Attended**: {contest.get("attendedContestsCount", "N/A")}  
 - **Top Rank Achieved**: {contest.get("topPercentage", "N/A")}%  
+
+### 📈 Recent Contests
+| Contest | Rating | Rank | Problems Solved |
+|---------|--------|------|----------------|
+{contest_rows}
+
+### 📊 Contest Leaderboard
+| Contest | Rating | Progress |
+|---------|--------|---------|
+{leaderboard_rows}
 
 ---
 
@@ -170,22 +148,15 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 | Difficulty | Solved | Submissions |
 |------------|--------|-------------|
-| 🟢 Easy        | {easy['count']} | {easy['submissions']} |
-| 🟡 Medium      | {medium['count']} | {medium['submissions']} |
-| 🔴 Hard        | {hard['count']} | {hard['submissions']} |
+| 🟢 Easy    | {easy['count']} | {easy['submissions']} |
+| 🟡 Medium  | {medium['count']} | {medium['submissions']} |
+| 🔴 Hard    | {hard['count']} | {hard['submissions']} |
 
 ---
 
 ## 📊 Problem Solving Distribution
 
 ![LeetCode Stats]({STATS_IMAGE})
-
----
-
-## 🏅 Achievements and Badges  
-- **Ranking**: {user.get("profile", {}).get("ranking", "N/A")}  
-- **Reputation**: {user.get("profile", {}).get("reputation", "N/A")}  
-- **Star Rating**: {user.get("profile", {}).get("starRating", "N/A")}  
 
 ---
 
