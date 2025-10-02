@@ -35,4 +35,4 @@ jobs:
           git commit -m "Update LeetCode stats [skip ci]" || echo "Nothing to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
