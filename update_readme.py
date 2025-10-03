@@ -166,7 +166,7 @@ This repository contains solutions to various LeetCode problems in the form of `
 ---
 
 ## 💬 Connect with Me  
-📧 Email: sandeep.kumar@science.christuniversity.in  
+📧 Email: sksandy3869@gmail.com 
 🔗 LeetCode Profile: [{USERNAME}](https://leetcode.com/u/{USERNAME}/)  
 
 ---
