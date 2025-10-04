@@ -1,9 +1,9 @@
 
 # 🏆 LeetCode Journey by Sandeep Kumar  
 
-![Acceptance Rate](https://img.shields.io/badge/Acceptance-84.09%25-brightgreen) 
-![Total Solved](https://img.shields.io/badge/Solved-407-blue) 
-![Ranking](https://img.shields.io/badge/Ranking-241922-orange) 
+![Acceptance Rate](https://img.shields.io/badge/Acceptance-84.12%25-brightgreen) 
+![Total Solved](https://img.shields.io/badge/Solved-408-blue) 
+![Ranking](https://img.shields.io/badge/Ranking-241032-orange) 
 ![Contests Attended](https://img.shields.io/badge/Contests-3-purple)
 
 [Visit my LeetCode profile](https://leetcode.com/u/SKSANDY2396/)  
@@ -37,12 +37,12 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 84.09%  
+- **Acceptance Rate**: 84.12%  
 
 | Difficulty | Solved | Submissions |
 |------------|--------|-------------|
 | 🟢 Easy    | 324 | 381 |
-| 🟡 Medium  | 79 | 98 |
+| 🟡 Medium  | 80 | 99 |
 | 🔴 Hard    | 4 | 5 |
 
 ---
@@ -59,7 +59,7 @@ This repository contains solutions to various LeetCode problems in the form of `
 ---
 
 ## 💬 Connect with Me  
-📧 Email: sandeep.kumar@science.christuniversity.in  
+📧 Email: sksandy3869@gmail.com 
 🔗 LeetCode Profile: [SKSANDY2396](https://leetcode.com/u/SKSANDY2396/)  
 
 ---
