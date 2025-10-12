@@ -1,9 +1,9 @@
 
 # 🏆 LeetCode Journey by Sandeep Kumar  
 
-![Acceptance Rate](https://img.shields.io/badge/Acceptance-84.38%25-brightgreen) 
-![Total Solved](https://img.shields.io/badge/Solved-416-blue) 
-![Ranking](https://img.shields.io/badge/Ranking-234725-orange) 
+![Acceptance Rate](https://img.shields.io/badge/Acceptance-84.41%25-brightgreen) 
+![Total Solved](https://img.shields.io/badge/Solved-417-blue) 
+![Ranking](https://img.shields.io/badge/Ranking-232278-orange) 
 ![Contests Attended](https://img.shields.io/badge/Contests-3-purple)
 
 [Visit my LeetCode profile](https://leetcode.com/u/SKSANDY2396/)  
@@ -14,7 +14,7 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: 1383.805  
-- **Global Ranking**: 683351 / 771481  
+- **Global Ranking**: 683335 / 771462  
 - **Contests Attended**: 3  
 - **Top Rank Achieved**: 88.75%  
 
@@ -37,11 +37,11 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 84.38%  
+- **Acceptance Rate**: 84.41%  
 
 | Difficulty | Solved | Submissions |
 |------------|--------|-------------|
-| 🟢 Easy    | 329 | 386 |
+| 🟢 Easy    | 330 | 387 |
 | 🟡 Medium  | 83 | 102 |
 | 🔴 Hard    | 4 | 5 |
 
@@ -61,6 +61,22 @@ This repository contains solutions to various LeetCode problems in the form of `
 ## 💬 Connect with Me  
 📧 Email: sksandy3869@gmail.com
 🔗 LeetCode Profile: [SKSANDY2396](https://leetcode.com/u/SKSANDY2396/)  
+
+---
+
+## 💖 Support My Work
+
+If my LeetCode journey or open-source projects have inspired or helped you, consider supporting my work to keep it going strong!  
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-fafbfc?logo=github&style=for-the-badge)](https://github.com/sponsors/sandeepkumar3869)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-sksandy3869-yellow?logo=buy-me-a-coffee&style=for-the-badge)](https://buymeacoffee.com/sksandy3869)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-sandeepkumar3869-FF5E5B?logo=kofi&style=for-the-badge)](https://ko-fi.com/sandeepkumar3869)
+
+📬 **Other ways to connect or contribute:**  
+- 💼 [PayPal](https://www.paypal.me/8986578410) 
+- 📱 **UPI:** `sksandy3869-1@oksbi`  
+- 💻 [LeetCode Profile](https://leetcode.com/u/SKSANDY2396/)  
+- ✉️ **Email:** [sksandy3869@gmail.com](mailto:sksandy3869@gmail.com)
 
 ---
 
