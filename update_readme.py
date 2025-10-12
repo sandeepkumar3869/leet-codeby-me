@@ -171,6 +171,22 @@ This repository contains solutions to various LeetCode problems in the form of `
 
 ---
 
+## 💖 Support My Work
+
+If my LeetCode journey or open-source projects have inspired or helped you, consider supporting my work to keep it going strong!  
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-fafbfc?logo=github&style=for-the-badge)](https://github.com/sponsors/sandeepkumar3869)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-sksandy3869-yellow?logo=buy-me-a-coffee&style=for-the-badge)](https://buymeacoffee.com/sksandy3869)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-sandeepkumar3869-FF5E5B?logo=kofi&style=for-the-badge)](https://ko-fi.com/sandeepkumar3869)
+
+📬 **Other ways to connect or contribute:**  
+- 💼 [PayPal](https://www.paypal.me/8986578410) 
+- 📱 **UPI:** `sksandy3869-1@oksbi`  
+- 💻 [LeetCode Profile](https://leetcode.com/u/SKSANDY2396/)  
+- ✉️ **Email:** [sksandy3869@gmail.com](mailto:sksandy3869@gmail.com)
+
+---
+
 ## 📄 License  
 
 This project is licensed under the MIT License.
