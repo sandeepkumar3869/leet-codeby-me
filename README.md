@@ -1,9 +1,9 @@
 
 # 🏆 LeetCode Journey by Sandeep Kumar  
 
-![Acceptance Rate](https://img.shields.io/badge/Acceptance-84.41%25-brightgreen) 
-![Total Solved](https://img.shields.io/badge/Solved-417-blue) 
-![Ranking](https://img.shields.io/badge/Ranking-232278-orange) 
+![Acceptance Rate](https://img.shields.io/badge/Acceptance-84.11%25-brightgreen) 
+![Total Solved](https://img.shields.io/badge/Solved-434-blue) 
+![Ranking](https://img.shields.io/badge/Ranking-218249-orange) 
 ![Contests Attended](https://img.shields.io/badge/Contests-3-purple)
 
 [Visit my LeetCode profile](https://leetcode.com/u/SKSANDY2396/)  
@@ -14,9 +14,9 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: 1383.805  
-- **Global Ranking**: 683335 / 771462  
+- **Global Ranking**: 689019 / 778065  
 - **Contests Attended**: 3  
-- **Top Rank Achieved**: 88.75%  
+- **Top Rank Achieved**: 88.73%  
 
 ### 📈 Recent Contests
 | Contest | Rating | Rank | Problems Solved |
@@ -37,12 +37,12 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 84.41%  
+- **Acceptance Rate**: 84.11%  
 
 | Difficulty | Solved | Submissions |
 |------------|--------|-------------|
-| 🟢 Easy    | 330 | 387 |
-| 🟡 Medium  | 83 | 102 |
+| 🟢 Easy    | 346 | 408 |
+| 🟡 Medium  | 84 | 103 |
 | 🔴 Hard    | 4 | 5 |
 
 ---
@@ -69,8 +69,8 @@ This repository contains solutions to various LeetCode problems in the form of `
 If my LeetCode journey or open-source projects have inspired or helped you, consider supporting my work to keep it going strong!  
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-fafbfc?logo=github&style=for-the-badge)](https://github.com/sponsors/sandeepkumar3869)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-sksandy3869-yellow?logo=buy-me-a-coffee&style=for-the-badge)](https://buymeacoffee.com/sksandy3869)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-sandeepkumar3869-FF5E5B?logo=kofi&style=for-the-badge)](https://ko-fi.com/sandeepkumar3869)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-sksandy3869-yellow?logo=buy-me-a-coffee&style=for-the-badge)](https://captainsandeepkumar.blogspot.com/search?q=UPI)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-sandeepkumar3869-FF5E5B?logo=kofi&style=for-the-badge)](https://captainsandeepkumar.blogspot.com/search?q=UPI)
 
 📬 **Other ways to connect or contribute:**  
 - 💼 [PayPal](https://www.paypal.me/8986578410) 
