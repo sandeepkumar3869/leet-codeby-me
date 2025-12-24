@@ -1,8 +1,8 @@
 
 # 🏆 LeetCode Journey by Sandeep Kumar  
 
-![Acceptance Rate](https://img.shields.io/badge/Acceptance-83.93%25-brightgreen) 
-![Total Solved](https://img.shields.io/badge/Solved-449-blue) 
+![Acceptance Rate](https://img.shields.io/badge/Acceptance-83.96%25-brightgreen) 
+![Total Solved](https://img.shields.io/badge/Solved-450-blue) 
 ![Ranking](https://img.shields.io/badge/Ranking-212336-orange) 
 ![Contests Attended](https://img.shields.io/badge/Contests-3-purple)
 
@@ -37,11 +37,11 @@ Welcome to my repository, where I document my journey of solving coding challeng
 ---
 
 ## 💡 Problem-Solving Stats  
-- **Acceptance Rate**: 83.93%  
+- **Acceptance Rate**: 83.96%  
 
 | Difficulty | Solved | Submissions |
 |------------|--------|-------------|
-| 🟢 Easy    | 361 | 427 |
+| 🟢 Easy    | 362 | 428 |
 | 🟡 Medium  | 84 | 103 |
 | 🔴 Hard    | 4 | 5 |
 
