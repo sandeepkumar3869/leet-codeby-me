@@ -14,9 +14,9 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: 1383.805  
-- **Global Ranking**: 743967 / 842080  
+- **Global Ranking**: 748624 / 847451  
 - **Contests Attended**: 3  
-- **Top Rank Achieved**: 88.52%  
+- **Top Rank Achieved**: 88.51%  
 
 ### 📈 Recent Contests
 | Contest | Rating | Rank | Problems Solved |
