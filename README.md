@@ -3,7 +3,7 @@
 
 ![Acceptance Rate](https://img.shields.io/badge/Acceptance-80.99%25-brightgreen) 
 ![Total Solved](https://img.shields.io/badge/Solved-456-blue) 
-![Ranking](https://img.shields.io/badge/Ranking-250558-orange) 
+![Ranking](https://img.shields.io/badge/Ranking-250778-orange) 
 ![Contests Attended](https://img.shields.io/badge/Contests-3-purple)
 
 [Visit my LeetCode profile](https://leetcode.com/u/SKSANDY2396/)  
