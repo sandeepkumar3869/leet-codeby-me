@@ -3,7 +3,7 @@
 
 ![Acceptance Rate](https://img.shields.io/badge/Acceptance-80.99%25-brightgreen) 
 ![Total Solved](https://img.shields.io/badge/Solved-456-blue) 
-![Ranking](https://img.shields.io/badge/Ranking-259426-orange) 
+![Ranking](https://img.shields.io/badge/Ranking-259596-orange) 
 ![Contests Attended](https://img.shields.io/badge/Contests-3-purple)
 
 [Visit my LeetCode profile](https://leetcode.com/u/SKSANDY2396/)  
@@ -14,9 +14,9 @@ Welcome to my repository, where I document my journey of solving coding challeng
 
 ## 🚀 Contest Performance  
 - **Contest Rating**: 1383.805  
-- **Global Ranking**: 776659 / 889290  
+- **Global Ranking**: 777497 / 890724  
 - **Contests Attended**: 3  
-- **Top Rank Achieved**: 87.52%  
+- **Top Rank Achieved**: 87.47%  
 
 ### 📈 Recent Contests
 | Contest | Rating | Rank | Problems Solved |
